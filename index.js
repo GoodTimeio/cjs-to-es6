@@ -46,7 +46,7 @@ function findJsFiles(dir) {
     var files = [];
     findit(dir).on('file', function (file) {
       // only return files ending in .js
-      if (/\.js$/.test(file)) {
+      if (/\.(js|ts)x?$/.test(file)) {
         files.push(file);
       }
     }).on('end', function () {

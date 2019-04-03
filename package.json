@@ -1,8 +1,8 @@
 {
-  "name": "cjs-to-es6",
+  "name": "better-cjs-to-es6",
   "version": "1.1.1",
-  "description": "Convert JavaScript files from CommonJS to ES6 modules",
-  "repository": "https://github.com/nolanlawson/cjs-to-es6.git",
+  "description": "Convert JavaScript, TypeScript, JSX, TSX files from CommonJS to ES6 modules",
+  "repository": "https://github.com/GoodTimeio/cjs-to-es6.git",
   "main": "index.js",
   "bin": "index.js",
   "keywords": [
@@ -12,7 +12,7 @@
     "cjs",
     "convert"
   ],
-  "author": "Nolan Lawson <nolan@nolanlawson.com>",
+  "author": "Nolan Lawson <nolan@nolanlawson.com>, Stefano D'Amico <skdamico@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "5to6-codemod": "^1.0.0",
